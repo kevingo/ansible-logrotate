@@ -1,11 +1,9 @@
 {{ logrotate_path }} {
-        daily
-        missingok
-        rotate 7
-        compress
-        notifempty
-        create
-        copytruncate
-        maxage 90
-        size 50M
+	daily
+	missingok
+	rotate 7
+	size=50M
+	compress
+	notifempty
+  	copytruncate
 }
