@@ -8,7 +8,7 @@ This Ansible role installs/updates and configures logrotate
 ## Installation
 
 ``` bash
-$ ansible-galaxy install crushlovely.logrotate,v1.0.0
+$ ansible-galaxy install kevingo.logrotate
 ```
 
 ## Variables
