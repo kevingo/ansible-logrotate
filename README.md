@@ -27,7 +27,7 @@ Once this role is installed on your system, include it in the roles list of your
 ``` yaml
 - hosts: localhost
   roles:
-    - crushlovely.logrotate
+    - kevingo.logrotate
 ```
 
 ## Dependencies
